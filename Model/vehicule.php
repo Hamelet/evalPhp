@@ -10,17 +10,17 @@ class vehicule {
     /**
      * 
      */
-    public string $nom;
+    protected string $nom;
 
     
     /**
      * 
      */
-    public string $echelle;
+    protected string $echelle;
     /**
      * Default constructor
      */
-    public function __construct(string $nom, bool $echelle = true) {
+    protected function __construct(string $nom, bool $echelle = true) {
         $this->nom = $nom;
         $this->echelle = $echelle;
     }

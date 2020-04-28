@@ -8,7 +8,8 @@ class EPA extends vehicule {
     /**
      * Default constructor
      */
-    public function __construct(string $nom, bool $echelle = true) {
+    public function __construct(string $nom) {
+        vehicule::__construct( $echelle = true );
     }
 
     /**

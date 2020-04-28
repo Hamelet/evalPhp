@@ -8,7 +8,8 @@ class VSAV extends vehicule {
     /**
      * Default constructor
      */
-    public function __construct(string $nom, bool $echelle = true) {
+    public function __construct($nom) {
+        vehicule::__construct(  $echelle = true);
     }
 
     /**
